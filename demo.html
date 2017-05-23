@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo excel jquery</title>
+</head>
+<body>
+<a href="javascript:;" onClick ="$('#tableID').tableExport({type:'csv',tableName:'baomingbiao',escape:'false'});">点击下载</a>
+    <table id="tableID">
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>张三</td>
+                <td>33</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>3</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>王麻子</td>
+                <td>13</td>
+                <td>女</td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="http://chenyanlin.com/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="tableExport.js"></script>
+    <script type="text/javascript" src="jquery.base64.js"></script>
+    <script>
+        
+    </script>
+</body>
+
+</html>
